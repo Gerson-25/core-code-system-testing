@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class GetRequestTest {
 
-    @Test(groups = {"integrationTesting","get"})
+    @Test(groups = {"integrationTesting"})
     public void getAllUsers(){
         Response response = RequestMaker.makeGetRequest("http://localhost:8083/api/pets/getAll");
         String responseString = response.asString();
