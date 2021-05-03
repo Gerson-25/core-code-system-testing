@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-03T12:25:58 CST" name="Clinic-project TestSuite" finished-at="2021-05-03T12:25:58 CST" duration-ms="79">
+    <groups>
+      <group name="test-example">
+        <method signature="TestExample.test()[pri:0, instance:TestExample@670002]" name="test" class="TestExample"/>
+      </group> <!-- test-example -->
+    </groups>
+    <test started-at="2021-05-03T12:25:58 CST" name="Test Cases" finished-at="2021-05-03T12:25:58 CST" duration-ms="79">
+      <class name="TestExample">
+        <test-method signature="test()[pri:0, instance:TestExample@670002]" started-at="2021-05-03T12:25:58 CST" name="test" finished-at="2021-05-03T12:25:58 CST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- TestExample -->
+    </test> <!-- Test Cases -->
+  </suite> <!-- Clinic-project TestSuite -->
+</testng-results>
