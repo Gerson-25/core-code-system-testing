@@ -10,11 +10,11 @@
     <test name="Test Cases">
         <groups>
             <run>
-                <include name="integrationTesting"/>
+                <include name="systemTesting"/>
             </run>
         </groups>
         <classes>
-            <class name="integrationTesting.GetRequestTest"/>
+            <class name="systemTesting.AddPetTest"/>
         </classes>
     </test>
 </suite>

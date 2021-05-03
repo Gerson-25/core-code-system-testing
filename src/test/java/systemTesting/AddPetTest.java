@@ -13,7 +13,7 @@ public class AddPetTest extends InitDriver{
         driver.get("http://127.0.0.1:5500/QA-project/public/create_appointment.html");
     }
 
-    @Test(groups = "apiTesting")
+    @Test(groups = "systemTesting")
     public void addNewPetTest() throws InterruptedException {
         String url = driver.getCurrentUrl();
         System.out.println(url);
