@@ -7,7 +7,7 @@
     <parameter name="runOn" value="chrome"/>
     <parameter name="browser" value="chrome"/>
 
-    <test name="Test Cases">
+    <test name="Test Cases System">
         <groups>
             <run>
                 <include name="systemTesting"/>
