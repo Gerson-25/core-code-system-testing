@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class AddPetTest extends InitDriver{
 
-    AddNewPetActions addNewPetActions;
+    private AddNewPetActions addNewPetActions;
     @BeforeClass
     private void goToPage(){
         addNewPetActions = new AddNewPetActions(driver, wait);

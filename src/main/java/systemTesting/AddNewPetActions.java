@@ -25,9 +25,9 @@ private WebDriverWait webDriverWait;
         fillName(name);
         fillType(type);
         fillAge(age);
-        Thread.sleep(10000);
+        //Thread.sleep(10000);
         clickSaveButton();
-        Thread.sleep(10000);
+        //Thread.sleep(10000);
     }
 
     private void fillName(String name){
@@ -35,6 +35,7 @@ private WebDriverWait webDriverWait;
     }
 
     private void fillType(String type){
+        //WebElement petTypeElement = wait.until(ExpectedConditions.visibilityOf(petType));
         WebElement petTypeElement = wait.until(ExpectedConditions.visibilityOf(petType));
         Select petTypeSelect = new Select(petTypeElement);
         petTypeSelect.selectByValue(type);
